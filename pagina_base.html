@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Mi Sitio</title>
+    <style>
+        body {
+            font-family: system-ui, sans-serif;
+            max-width: 900px;
+            margin: 2rem auto;
+            line-height: 1.5;
+        }
+
+        header,
+        nav,
+        main,
+        article,
+        aside,
+        footer {
+            padding: 12px;
+            border: 1px solid #ddd;
+            margin-bottom: 12px;
+        }
+
+        blockquote {
+            font-style: italic;
+        }
+
+        nav a {
+            margin-right: 8px;
+        }
+
+        time {
+            color: #666;
+        }
+
+        .label {
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Mi Blog Personal</h1>
+
+        <nav aria-label="menu">
+            <a href="#">Inicio</a>
+            <a href="#">Artículos</a>
+            <a href="#">Contacto</a>
+        </nav>
+    </header>
+
+    <main>
+        <article>
+            <h2>Novedades de HTML5</h2>
+
+            <p>
+                <time datetime="2024-12-20">Publicado el 20/12/2024</time>
+            </p>
+
+            <p>HTML5 trae nuevas etiquetas <em>muy interesantes</em> para mejorar la web.</p>
+
+            <blockquote>
+                <q cite="https://es.wikipedia.org/wiki/Stephen_King">a uniquely portable magic</q>
+                <p><cite>- Stephen King</cite></p>
+            </blockquote>
+
+            <p>
+                La <span class="label">URL</span>:
+                <a href="https://www.example.com">https://www.example.com</a>
+            </p>
+            <p>Visita a la <abbr title="World Health Organization">WHO</abbr> para más información.</p>
+        </article>
+
+        <aside>
+            <h2>Acerca de</h2>
+            <p>Desarrollador web y escritor ocasional.</p>
+
+            <h3>Contacto</h3>
+            <address>
+                <p>Email: <span class="label"><a href="mailto:contacto@ejemplo.com">contacto@ejemplo.com</a></span></p>
+            </address>
+        </aside>
+    </main>
+
+    <footer>
+        <p>© 2025 Mi Sitio</p>
+        <p>Hecho con <em>café</em> y paciencia.</p>
+    </footer>
+</body>
+</html>
